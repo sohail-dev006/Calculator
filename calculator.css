@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    justify-content: center;
+    display: flex;
+}
+button{
+    background-color: rgb(67, 24, 108);
+    padding: 20px;
+    color: white;
+    font-size: 20px; 
+}
+#element{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px; 
+    
+    
+}
+#display{
+    width: 240px;
+    padding: 10px 0px;
+    font-size: 30px;
+    font-weight: 700;
+    border: 8px solid #3d3939;
+}
+.bg-input{
+    background: rgba(59, 56, 59, 0.667);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
